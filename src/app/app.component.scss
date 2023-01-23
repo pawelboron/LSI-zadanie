@@ -1,0 +1,15 @@
+.view{
+    p{
+        font-weight: 700;
+    }
+    a{
+        cursor: pointer;
+        padding: 10px;
+    }
+}
+
+::ng-deep{
+    .p-paginator{
+        justify-content: flex-end!important;
+    }
+}
