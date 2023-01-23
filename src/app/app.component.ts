@@ -21,7 +21,6 @@ export class AppComponent implements OnInit {
     this.api.getExchangeRates().subscribe((data) => {
       this.ratesData = data;
       this.ratesTable = this.ratesData[0].rates;
-      console.log(this.ratesTable);
     });
   }
 
